@@ -1,6 +1,6 @@
   .img {
     height: 200px;
-    background: #aaa;
+    background: #aaaaaa;
   }
 
   .active1{
@@ -39,4 +39,8 @@
   @-webkit-keyframes keyframe1{
     from{color: cyan;}
     to{color: black;}
+  }
+
+  span{
+    color: red;
   }
