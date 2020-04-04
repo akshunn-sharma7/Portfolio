@@ -1,0 +1,42 @@
+  .img {
+    height: 200px;
+    background: #aaa;
+  }
+
+  .active1{
+      background-color: #EB6F64;
+      color: white;
+  }
+
+  body{
+      background-image: linear-gradient(teal,darkgray);
+  }
+
+  button{
+    width: 100%;     
+  }
+
+  button:hover{
+    background-color:green;
+  }
+
+  .contact{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 5% 0;
+    padding: 3% 3% 3% 3%;	
+  }
+
+  .display-4{
+    animation-name: keyframe1;
+    animation-duration: 4s;
+    -webkit-animation-name: keyframe1;
+    -webkit-animation-duration: 4s;
+  }
+  @keyframes keyframe1{
+    from{color: cyan;}
+    to{color: black;}
+  }
+  @-webkit-keyframes keyframe1{
+    from{color: cyan;}
+    to{color: black;}
+  }
